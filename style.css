@@ -43,19 +43,15 @@ h2 {
 .table-container {
     width: 80%;
     display: flex;
-    justify-content: center;
     justify-content: flex-end;
-    margin-top: 20px;
-    overflow-x: auto;
 }
 table {
     width: 68%;
-    margin: 10px;
     background-color: grey;
     border-radius:8px;
     border-spacing: 0px;
-    border: 6px solid darkslategrey;
-    overflow: hidden;
+    border: 2px solid darkslategrey;
+    table-layout: auto;
 }
 th, td {
     border: 2px solid darkslategrey;
