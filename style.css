@@ -1,10 +1,13 @@
 
 img {
     border-radius: 8px;
+    max-width:70%;
+    height: auto;
 }
 
 h1 {
-    color: olive;    text-align: center;
+    color: olive;    
+    text-align: center;
     font-size:  35px;
     margin-top: 20px;
 }
@@ -14,19 +17,22 @@ p {
 body {
     background-color: lavender;
     font-family: Arial, sans-serif;
-    line-height: 1.2;
+    line-height: 1.6;
     margin: 5px;
     font-size: 20px; 
     color: darkslategrey;
+    padding: 30px;
 }
 ul li {
     margin-bottom: 12px;
+    color: rgb(173, 10, 202);
 }
 h2 {
     color: olive;
     text-align: center;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
 }
 .galeria {
@@ -36,27 +42,39 @@ h2 {
 }
 
 .galeria img {
+    margin: 12px;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 8px;
 
 
 }
 .table-container {
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
+    overflow-y: auto;
+    border-radius: 8px;
+    border:3px solid #ccc;
+    max-height: 500px;
+    margin-top: 20px;
 }
 table {
-    width: 68%;
-    background-color: grey;
-    border-radius:8px;
-    border-spacing: 0px;
-    border: 2px solid darkslategrey;
-    table-layout: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-collapse:collapse;
+    background-color: rgb(210, 203, 212);  
+}
+table img {
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
 }
 th, td {
-    border: 2px solid darkslategrey;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
     text-align: center;
-    height: 50px;
+    border: 3px solid rgb(158, 85, 174);
 }
 button {
     background-color: grey;
